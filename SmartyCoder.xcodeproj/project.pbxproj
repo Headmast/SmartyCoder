@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5040A4CF1C6BC8DC00773D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040A4CE1C6BC8DC00773D2F /* main.m */; };
+		5040A4D21C6BC8DC00773D2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040A4D11C6BC8DC00773D2F /* AppDelegate.m */; };
+		5040A4D51C6BC8DC00773D2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040A4D41C6BC8DC00773D2F /* ViewController.m */; };
+		5040A4D81C6BC8DC00773D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5040A4D61C6BC8DC00773D2F /* Main.storyboard */; };
+		5040A4DB1C6BC8DC00773D2F /* SmartyCoder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5040A4D91C6BC8DC00773D2F /* SmartyCoder.xcdatamodeld */; };
+		5040A4DD1C6BC8DC00773D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5040A4DC1C6BC8DC00773D2F /* Assets.xcassets */; };
+		5040A4E01C6BC8DC00773D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5040A4DE1C6BC8DC00773D2F /* LaunchScreen.storyboard */; };
+		5040A4EB1C6BC8DC00773D2F /* SmartyCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040A4EA1C6BC8DC00773D2F /* SmartyCoderTests.m */; };
+		5040A4F61C6BC8DC00773D2F /* SmartyCoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040A4F51C6BC8DC00773D2F /* SmartyCoderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5040A4E71C6BC8DC00773D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5040A4C21C6BC8DC00773D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5040A4C91C6BC8DC00773D2F;
+			remoteInfo = SmartyCoder;
+		};
+		5040A4F21C6BC8DC00773D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5040A4C21C6BC8DC00773D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5040A4C91C6BC8DC00773D2F;
+			remoteInfo = SmartyCoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5040A4CA1C6BC8DC00773D2F /* SmartyCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartyCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5040A4CE1C6BC8DC00773D2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5040A4D01C6BC8DC00773D2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5040A4D11C6BC8DC00773D2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5040A4D31C6BC8DC00773D2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5040A4D41C6BC8DC00773D2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5040A4D71C6BC8DC00773D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5040A4DA1C6BC8DC00773D2F /* SmartyCoder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartyCoder.xcdatamodel; sourceTree = "<group>"; };
+		5040A4DC1C6BC8DC00773D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5040A4DF1C6BC8DC00773D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5040A4E11C6BC8DC00773D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5040A4E61C6BC8DC00773D2F /* SmartyCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartyCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5040A4EA1C6BC8DC00773D2F /* SmartyCoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartyCoderTests.m; sourceTree = "<group>"; };
+		5040A4EC1C6BC8DC00773D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5040A4F11C6BC8DC00773D2F /* SmartyCoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartyCoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5040A4F51C6BC8DC00773D2F /* SmartyCoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartyCoderUITests.m; sourceTree = "<group>"; };
+		5040A4F71C6BC8DC00773D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5040A4C71C6BC8DC00773D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5040A4E31C6BC8DC00773D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5040A4EE1C6BC8DC00773D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5040A4C11C6BC8DC00773D2F = {
+			isa = PBXGroup;
+			children = (
+				5040A4CC1C6BC8DC00773D2F /* SmartyCoder */,
+				5040A4E91C6BC8DC00773D2F /* SmartyCoderTests */,
+				5040A4F41C6BC8DC00773D2F /* SmartyCoderUITests */,
+				5040A4CB1C6BC8DC00773D2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5040A4CB1C6BC8DC00773D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5040A4CA1C6BC8DC00773D2F /* SmartyCoder.app */,
+				5040A4E61C6BC8DC00773D2F /* SmartyCoderTests.xctest */,
+				5040A4F11C6BC8DC00773D2F /* SmartyCoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5040A4CC1C6BC8DC00773D2F /* SmartyCoder */ = {
+			isa = PBXGroup;
+			children = (
+				5040A4D01C6BC8DC00773D2F /* AppDelegate.h */,
+				5040A4D11C6BC8DC00773D2F /* AppDelegate.m */,
+				5040A4D31C6BC8DC00773D2F /* ViewController.h */,
+				5040A4D41C6BC8DC00773D2F /* ViewController.m */,
+				5040A4D61C6BC8DC00773D2F /* Main.storyboard */,
+				5040A4DC1C6BC8DC00773D2F /* Assets.xcassets */,
+				5040A4DE1C6BC8DC00773D2F /* LaunchScreen.storyboard */,
+				5040A4E11C6BC8DC00773D2F /* Info.plist */,
+				5040A4D91C6BC8DC00773D2F /* SmartyCoder.xcdatamodeld */,
+				5040A4CD1C6BC8DC00773D2F /* Supporting Files */,
+			);
+			path = SmartyCoder;
+			sourceTree = "<group>";
+		};
+		5040A4CD1C6BC8DC00773D2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5040A4CE1C6BC8DC00773D2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5040A4E91C6BC8DC00773D2F /* SmartyCoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5040A4EA1C6BC8DC00773D2F /* SmartyCoderTests.m */,
+				5040A4EC1C6BC8DC00773D2F /* Info.plist */,
+			);
+			path = SmartyCoderTests;
+			sourceTree = "<group>";
+		};
+		5040A4F41C6BC8DC00773D2F /* SmartyCoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5040A4F51C6BC8DC00773D2F /* SmartyCoderUITests.m */,
+				5040A4F71C6BC8DC00773D2F /* Info.plist */,
+			);
+			path = SmartyCoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5040A4C91C6BC8DC00773D2F /* SmartyCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5040A4FA1C6BC8DC00773D2F /* Build configuration list for PBXNativeTarget "SmartyCoder" */;
+			buildPhases = (
+				5040A4C61C6BC8DC00773D2F /* Sources */,
+				5040A4C71C6BC8DC00773D2F /* Frameworks */,
+				5040A4C81C6BC8DC00773D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartyCoder;
+			productName = SmartyCoder;
+			productReference = 5040A4CA1C6BC8DC00773D2F /* SmartyCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5040A4E51C6BC8DC00773D2F /* SmartyCoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5040A4FD1C6BC8DC00773D2F /* Build configuration list for PBXNativeTarget "SmartyCoderTests" */;
+			buildPhases = (
+				5040A4E21C6BC8DC00773D2F /* Sources */,
+				5040A4E31C6BC8DC00773D2F /* Frameworks */,
+				5040A4E41C6BC8DC00773D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5040A4E81C6BC8DC00773D2F /* PBXTargetDependency */,
+			);
+			name = SmartyCoderTests;
+			productName = SmartyCoderTests;
+			productReference = 5040A4E61C6BC8DC00773D2F /* SmartyCoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5040A4F01C6BC8DC00773D2F /* SmartyCoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5040A5001C6BC8DC00773D2F /* Build configuration list for PBXNativeTarget "SmartyCoderUITests" */;
+			buildPhases = (
+				5040A4ED1C6BC8DC00773D2F /* Sources */,
+				5040A4EE1C6BC8DC00773D2F /* Frameworks */,
+				5040A4EF1C6BC8DC00773D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5040A4F31C6BC8DC00773D2F /* PBXTargetDependency */,
+			);
+			name = SmartyCoderUITests;
+			productName = SmartyCoderUITests;
+			productReference = 5040A4F11C6BC8DC00773D2F /* SmartyCoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5040A4C21C6BC8DC00773D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kirill Klebanov";
+				TargetAttributes = {
+					5040A4C91C6BC8DC00773D2F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5040A4E51C6BC8DC00773D2F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5040A4C91C6BC8DC00773D2F;
+					};
+					5040A4F01C6BC8DC00773D2F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5040A4C91C6BC8DC00773D2F;
+					};
+				};
+			};
+			buildConfigurationList = 5040A4C51C6BC8DC00773D2F /* Build configuration list for PBXProject "SmartyCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5040A4C11C6BC8DC00773D2F;
+			productRefGroup = 5040A4CB1C6BC8DC00773D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5040A4C91C6BC8DC00773D2F /* SmartyCoder */,
+				5040A4E51C6BC8DC00773D2F /* SmartyCoderTests */,
+				5040A4F01C6BC8DC00773D2F /* SmartyCoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5040A4C81C6BC8DC00773D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5040A4E01C6BC8DC00773D2F /* LaunchScreen.storyboard in Resources */,
+				5040A4DD1C6BC8DC00773D2F /* Assets.xcassets in Resources */,
+				5040A4D81C6BC8DC00773D2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5040A4E41C6BC8DC00773D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5040A4EF1C6BC8DC00773D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5040A4C61C6BC8DC00773D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5040A4D51C6BC8DC00773D2F /* ViewController.m in Sources */,
+				5040A4DB1C6BC8DC00773D2F /* SmartyCoder.xcdatamodeld in Sources */,
+				5040A4D21C6BC8DC00773D2F /* AppDelegate.m in Sources */,
+				5040A4CF1C6BC8DC00773D2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5040A4E21C6BC8DC00773D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5040A4EB1C6BC8DC00773D2F /* SmartyCoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5040A4ED1C6BC8DC00773D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5040A4F61C6BC8DC00773D2F /* SmartyCoderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5040A4E81C6BC8DC00773D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5040A4C91C6BC8DC00773D2F /* SmartyCoder */;
+			targetProxy = 5040A4E71C6BC8DC00773D2F /* PBXContainerItemProxy */;
+		};
+		5040A4F31C6BC8DC00773D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5040A4C91C6BC8DC00773D2F /* SmartyCoder */;
+			targetProxy = 5040A4F21C6BC8DC00773D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5040A4D61C6BC8DC00773D2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5040A4D71C6BC8DC00773D2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5040A4DE1C6BC8DC00773D2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5040A4DF1C6BC8DC00773D2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5040A4F81C6BC8DC00773D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5040A4F91C6BC8DC00773D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5040A4FB1C6BC8DC00773D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartyCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.SmartyCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5040A4FC1C6BC8DC00773D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartyCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.SmartyCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5040A4FE1C6BC8DC00773D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartyCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.SmartyCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartyCoder.app/SmartyCoder";
+			};
+			name = Debug;
+		};
+		5040A4FF1C6BC8DC00773D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartyCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.SmartyCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartyCoder.app/SmartyCoder";
+			};
+			name = Release;
+		};
+		5040A5011C6BC8DC00773D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartyCoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.SmartyCoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartyCoder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5040A5021C6BC8DC00773D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartyCoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.SmartyCoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartyCoder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5040A4C51C6BC8DC00773D2F /* Build configuration list for PBXProject "SmartyCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5040A4F81C6BC8DC00773D2F /* Debug */,
+				5040A4F91C6BC8DC00773D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5040A4FA1C6BC8DC00773D2F /* Build configuration list for PBXNativeTarget "SmartyCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5040A4FB1C6BC8DC00773D2F /* Debug */,
+				5040A4FC1C6BC8DC00773D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5040A4FD1C6BC8DC00773D2F /* Build configuration list for PBXNativeTarget "SmartyCoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5040A4FE1C6BC8DC00773D2F /* Debug */,
+				5040A4FF1C6BC8DC00773D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5040A5001C6BC8DC00773D2F /* Build configuration list for PBXNativeTarget "SmartyCoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5040A5011C6BC8DC00773D2F /* Debug */,
+				5040A5021C6BC8DC00773D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5040A4D91C6BC8DC00773D2F /* SmartyCoder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5040A4DA1C6BC8DC00773D2F /* SmartyCoder.xcdatamodel */,
+			);
+			currentVersion = 5040A4DA1C6BC8DC00773D2F /* SmartyCoder.xcdatamodel */;
+			path = SmartyCoder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5040A4C21C6BC8DC00773D2F /* Project object */;
+}
