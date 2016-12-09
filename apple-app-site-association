@@ -4,9 +4,7 @@
     "details": [
       {
         "appID": "B9639RHZFT.ru.surfstudio.okey",
-        "paths": [
-          "*"
-        ]
+        "paths": ["*"]
       }
     ]
   }
